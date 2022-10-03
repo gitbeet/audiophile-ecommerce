@@ -27,7 +27,6 @@
 
 .checkout-product-name,
 .checkout-product-price{
-    font-weight: 4000;
     margin: 0;
 }
 
@@ -46,7 +45,6 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
-
 
 /* transform scale works but scale doesn't */
 .checkout-window-quantity-buttons{

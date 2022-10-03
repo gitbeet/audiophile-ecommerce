@@ -1,7 +1,7 @@
 .footer{
     position: relative;
     background-color: var(--clr-primary) ;
-    padding: 3.2rem 1.5rem;
+    padding: 3.2rem 0;
     padding-bottom: 2rem;
     display: flex;
     flex-direction:column;
@@ -10,7 +10,7 @@
 }
 
 .footer-container{
-    width: 90%;
+    width: var(--container-width-sm-md);
     text-align: center;
 }
 
@@ -114,6 +114,10 @@
 }
 
 @media (min-width:1440px){
+
+    .footer-container{
+        width: var(--container-width-lg);
+    }
 
    .desktop-footer-logo-nav{
         width: 100%;
