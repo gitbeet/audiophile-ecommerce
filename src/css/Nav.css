@@ -10,6 +10,10 @@
     border-bottom: 1px solid var(--clr-gray-transparent);
 }
 
+.nav-logo{
+    display: flex;
+}
+
 .nav{
     position: relative;
 }
@@ -22,9 +26,7 @@
     display: none;
 }
 
-.nav-logo{
-    align-self: center;
-}
+
 
 @media (min-width:768px){
 

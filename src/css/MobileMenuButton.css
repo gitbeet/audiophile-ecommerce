@@ -1,27 +1,19 @@
 .mobile-menu-button{
     position: relative;
-    width: 3rem;
-    height: 1.5rem;
+    width: 2.5rem;
+    height: 1.2rem;
     cursor: pointer;
-}
-
-.mobile-menu-top-line-open,
-.mobile-menu-middle-line-open,
-.mobile-menu-bottom-line-open{
-    position: absolute;
-    width: 2.7rem;
-    height: .3rem;
-    background-color: var(--clr-white);
-    transition: all .4s ease-in-out;
 }
 
 .mobile-menu-top-line,
 .mobile-menu-middle-line,
-.mobile-menu-bottom-line{
-    --vertical-offset:.7rem;
+.mobile-menu-bottom-line,
+.mobile-menu-top-line-open,
+.mobile-menu-middle-line-open,
+.mobile-menu-bottom-line-open{
     position: absolute;
-    width: 2.7rem;
-    height: .3rem;
+    width: 2.2rem;
+    height: .2rem;
     background-color: var(--clr-white);
     transition: all .4s ease-in-out;
 }
