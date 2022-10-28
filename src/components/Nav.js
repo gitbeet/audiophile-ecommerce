@@ -4,18 +4,20 @@ import ShoppingCartIcon from "./ShoppingCartIcon";
 import { usePopUp } from "../context/PopUpContext";
 import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks";
+import MobileMenuButton from "./MobileMenuButton";
 
 export default function Nav({ homePage }) {
   const { toggleMobileMenu } = usePopUp();
 
   return (
     <div className={homePage ? "nav-home" : "nav"}>
-      <img
+      <MobileMenuButton onClick={toggleMobileMenu} />
+      {/* <img
         className="nav-menu"
         onClick={toggleMobileMenu}
         src={mobileMenuIcon}
         alt="mobile menu icon"
-      />
+      /> */}
       <Link to="/">
         <svg width="143" height="25" xmlns="http://www.w3.org/2000/svg">
           <path

@@ -1,8 +1,8 @@
-.nav{
-    position: relative;
+.nav,
+.nav-home{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     width: 100%;
     padding: 2rem calc( ( 100% - var(--container-width-sm-md) ) / 2 ); ;
     z-index: 21;
@@ -10,17 +10,12 @@
     border-bottom: 1px solid var(--clr-gray-transparent);
 }
 
+.nav{
+    position: relative;
+}
+
 .nav-home{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    left:50%;
-    transform: translateX(-50%);
-    padding: 2rem calc( ( 100% - var(--container-width-sm-md) ) / 2 ); ;
-    z-index: 21;
-    border-bottom: 1px solid var(--clr-gray-transparent);
+    position: absolute;   
 }
 
 .nav-links{
