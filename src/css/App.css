@@ -46,6 +46,14 @@ img {
   --fs-400: 0.9375rem ;
 }
 
+#checkout-window{
+  position: relative;
+  z-index: 200;
+}
+
+
+
+
 a,a:visited,a:focus,a:active{
   color: inherit;
   text-decoration: none;
